@@ -189,7 +189,7 @@ class Hero extends Component {
                                             <p className="subtitle">{articles[0].summary}</p>
                                         </article>
                                         <article className="tile is-child notification is-white">
-                                            <p className="title">{articles[1].summary}</p>
+                                            <p className="title">{articles[1].title}</p>
                                             <p className="subtitle">{articles[1].summary}</p>
                                         </article>
                                     </div>
