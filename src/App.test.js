@@ -45,3 +45,9 @@ test('renders Balance tag', () => {
   const spanElement = screen.getByText(/Balance/i);
   expect(spanElement).toBeInTheDocument();
 });
+
+test('renders Question tag', () => {
+  render(<Forum />);
+  const spanElement = screen.getByTitle(/Question/i);
+  expect(spanElement).toBeInTheDocument();
+});
