@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.Fooseball {
+  color: palevioletred;
+}
+
+.Polo {
+  color: purple;
+}
+
+.Roundball {
+  color: darkgreen;
+}
+
+.Basketball {
+  color: darkorange;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
