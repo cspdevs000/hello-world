@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Forum.css'
+import './Forum.css';
+import axios from 'axios';
 
 const comment = {
     message: 'I love coding YAAAAy',
@@ -30,6 +31,7 @@ const commentList = [
 ]
 
 const displayCommentList = commentList.map((c, idx) => {
+
     return (
         <article className="post" key="idx">
             <h4>{c.message}</h4>
@@ -56,6 +58,7 @@ const displayCommentList = commentList.map((c, idx) => {
 })
 
 class Forum extends Component {
+
     render() {
         return (
             <div>
