@@ -11,6 +11,7 @@ import Login from './Login'
 import Hero from './Hero'
 import Contact from './Contact'
 import Cheatsheet from './Cheatsheet'
+import Forum from './Forum'
 
 // function App() {
 //   return (
@@ -29,14 +30,15 @@ class App extends Component {
       {/* <Login /> */}
       {/* <Cover /> */}
       {/* <Hero /> */}
-      <Cheatsheet /><br></br><br></br>
+      <Forum />
+      {/* <Cheatsheet /><br></br><br></br> */}
       {/* <Contact /><br></br><br></br> */}
-      <Racing /><br></br><br></br>
+      {/* <Racing /><br></br><br></br>
       <Basketball /><br></br><br></br>
       <Roundball /><br></br><br></br>
       <Polo /><br></br><br></br>
       <Fooseball /><br></br><br></br>
-      <h1>BONQUE</h1>
+      <h1>BONQUE</h1> */}
       </div>
     )
   }
