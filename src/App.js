@@ -29,8 +29,8 @@ class App extends Component {
       <div className="App">
       {/* <Login /> */}
       {/* <Cover /> */}
-      {/* <Hero /> */}
-      <Forum />
+      <Hero />
+      {/* <Forum /> */}
       {/* <Cheatsheet /><br></br><br></br> */}
       {/* <Contact /><br></br><br></br> */}
       {/* <Racing /><br></br><br></br>
