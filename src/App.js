@@ -14,6 +14,7 @@ import Cheatsheet from './Cheatsheet'
 import Forum from './Forum'
 import Blog from './Blog';
 import Landing from './Landing';
+import Skeleton from './Skeleton';
 
 // function App() {
 //   return (
@@ -33,7 +34,8 @@ class App extends Component {
       {/* <Cover /> */}
       {/* <Hero /> */}
       {/* <Blog /> */}
-      <Landing />
+      {/* <Landing /> */}
+      <Skeleton />
       {/* <Forum /> */}
       {/* <Cheatsheet /><br></br><br></br> */}
       {/* <Contact /><br></br><br></br> */}
