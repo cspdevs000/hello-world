@@ -12,6 +12,7 @@ import Hero from './Hero'
 import Contact from './Contact'
 import Cheatsheet from './Cheatsheet'
 import Forum from './Forum'
+import Blog from './Blog';
 
 // function App() {
 //   return (
@@ -29,7 +30,8 @@ class App extends Component {
       <div className="App">
       {/* <Login /> */}
       {/* <Cover /> */}
-      <Hero />
+      {/* <Hero /> */}
+      <Blog />
       {/* <Forum /> */}
       {/* <Cheatsheet /><br></br><br></br> */}
       {/* <Contact /><br></br><br></br> */}
