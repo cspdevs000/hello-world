@@ -5,9 +5,9 @@ class Skeleton extends Component {
     render() {
         return (
             <div>
-                <div class="section">
-                    <div class="notification has-text-centered">
-                        <p class="title">Start here...</p>
+                <div className="section">
+                    <div className="notification has-text-centered">
+                        <p className="title">Start here...</p>
                     </div>
                 </div>
             </div>
