@@ -34,8 +34,8 @@ class App extends Component {
       {/* <Cover /> */}
       {/* <Hero /> */}
       {/* <Blog /> */}
-      {/* <Landing /> */}
-      <Skeleton />
+      <Landing />
+      {/* <Skeleton /> */}
       {/* <Forum /> */}
       {/* <Cheatsheet /><br></br><br></br> */}
       {/* <Contact /><br></br><br></br> */}
