@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+let message = {
+    content: 'hello again worlde'
+}
 
 class Skeleton extends Component {
     render() {
@@ -8,6 +11,7 @@ class Skeleton extends Component {
                 <div className="section">
                     <div className="notification has-text-centered">
                         <p className="title">Start here...</p>
+                        <p>{message.content}</p>
                     </div>
                 </div>
             </div>
