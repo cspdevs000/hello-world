@@ -15,6 +15,8 @@ import Forum from './Forum'
 import Blog from './Blog';
 import Landing from './Landing';
 import Skeleton from './Skeleton';
+// import Article from './Article';
+// import Superhero from './Superhero';
 
 // function App() {
 //   return (
@@ -32,11 +34,13 @@ class App extends Component {
       <div className="App">
       {/* <Login /> */}
       {/* <Cover /> */}
-      {/* <Hero /> */}
+      <Hero />
+      {/* <Superhero /> */}
       {/* <Blog /> */}
-      <Landing />
+      {/* <Landing /> */}
       {/* <Skeleton /> */}
       {/* <Forum /> */}
+      {/* <Article /> */}
       {/* <Cheatsheet /><br></br><br></br> */}
       {/* <Contact /><br></br><br></br> */}
       {/* <Racing /><br></br><br></br>

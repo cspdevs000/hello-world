@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Superhero from './Superhero';
 import './Hero.css'
 
 const articles = [
@@ -47,6 +48,12 @@ const articles = [
         summary: "not a seargeant or a colornel"
     },
 ]
+
+const heroArray = articles.map((a, idx) => {
+    return (
+        <Superhero key={idx} index={idx} title={a.title} summary={a.summary} />
+    );
+});
 
 class Hero extends Component {
     render() {
@@ -160,8 +167,9 @@ class Hero extends Component {
                         <div className="tile is-ancestor">
                             <div className="tile is-parent is-shady">
                                 <article className="tile is-child notification is-white">
-                                    <p className="title">{articles[3].title}</p>
-                                    <p className="subtitle">{articles[3].summary}</p>
+                                <Superhero key={3} index={3} title={heroArray.title} summary={heroArray[3].summary} />
+                                    {/* <p className="title">{articles[3].title}</p> */}
+                                    {/* <p className="subtitle">{articles[3].summary}</p> */}
                                 </article>
                             </div>
                             <div className="tile is-parent is-shady">
